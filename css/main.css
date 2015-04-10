@@ -1,0 +1,72 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  }
+
+
+  body{
+  	margin: 0;
+  }
+
+header{
+	margin: 0;
+	background-image: url("../images/subtle-white-mini-waves.png");
+}
+
+    .masthead{
+  	background-image: url("images/noun_59034_cc.svg"), url("../images/subtle_white_mini_waves.png");
+  	padding-top: 6em;
+  	background-size: 75px auto, 200px auto;
+  	background-repeat: no-repeat, repeat;
+  	background-position: center 10px, left top;
+  	text-align: center;
+  	color: #512200;
+  	font-size: 2.5em;
+
+  }
+
+
+  }
+nav{
+	display: block;
+	margin: 0;
+	width: 100%;
+}
+
+nav li{
+	float: left;
+	padding: .5em;
+	box-sizing: border-box;
+	background-color: #rgba(81,34,0,0.5);
+	text-align: center;
+	display: inline;
+	width: 25%;
+
+}
+
+
+
+
+
+  img{
+  	width: 50.box {
+  background-color: #3B3A33;
+  padding: 1em;
+  text-align: center;
+}
+
+
+
+
+  figure {
+  position: relative;
+  bottom: 1em;
+  box-sizing: border-box;
+  margin: 0;
+  width: 50%;
+  float: left;
+
+}
