@@ -20,12 +20,13 @@ h1 {
   background-image: url("../images/beetle-logo.svg"),url("../images/beetle-logo.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
-  background-size: .8em auto, .8em auto;
+  background-size: .7em auto, .7em auto;
   width: 95%;
   font-size: 3em;
   margin: 0 auto;
   color: #512200;
   text-align:center;
+  padding: 1em;
 
 
   }
@@ -76,12 +77,11 @@ nav li: hover{
   text-align: center;
   background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
  
- img{
-  	width: 50.box {
-  background-color: #3B3A33;
-  padding: 1em;
-  text-align: center;
+figure img {
+  display: block;
+  width: 100%;
 }
+
 
 main {
   position: relative;
@@ -92,8 +92,7 @@ main {
 }
 
 
-
-  figure {
+figure {
   position: relative;
   bottom: 1em;
   box-sizing: border-box;
@@ -102,3 +101,6 @@ main {
   float: left;
 
 }
+
+
+
