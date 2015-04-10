@@ -102,5 +102,49 @@ figure {
 
 }
 
+figcaption {
+  display: block;
+  background-color: #388200;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 20%;
+  color: white;
+  width: 70%;
+  position: absolute;
+  bottom: 1em;
+  padding: .2em;
+  background: linear-gradient(to bottom, #6fc000, #388200);
+}
+
+figcaption a {
+  color: white;
+  text-decoration: none;
+}
+
+figcaption:hover {
+  background-color: #388200;
+  background: linear-gradient(to bottom, #388200, #214d00);
+}
+
+footer {
+  margin: 0
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(81,34,0,.5);
+}
+
+footer img {
+  margin: 0 auto;
+  width: 2.5em;
+  display: block;
+
+}
+
+.footer-graphic{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+}
+
 
 
